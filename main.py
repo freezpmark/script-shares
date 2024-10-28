@@ -82,6 +82,33 @@ print(read_response.json(), end="\n\n\n")
 # print(read_response.json(), end="\n\n\n")
 
 
+# example of calling correction on a diary
+
+# URL2 = f"{URL_DOMAIN}/search_read"
+# params2 = {
+#     "model": "lea.diary",
+#     "fields": "id",
+#     "domain": "[('name', '=', '문정미 - 2024 October 27')]",
+# }
+# read_response = requests.get(URL2, headers=headers, params=params2, timeout=10)
+# diary_id = read_response.json()["result"][0]["id"]
+
+# URL7 = f"{URL_DOMAIN}/call_method"
+# data8 = {
+#     "model": "lea.diary",
+#     "ids": diary_id,
+#     "method": "button_correct_with_ai"
+# }
+# read_response = requests.post(URL7, headers=headers, json=data8, timeout=10)
+# print(read_response.json(), end="\n\n\n")
+
+
+
+
+
+
+
+
 
 
 # user
