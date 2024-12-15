@@ -7,7 +7,7 @@ from dotenv import get_key, set_key
 #     refresh_token
 #         _extract_and_save_token
 
-URL_DOMAIN = "https://fluentenglish.odooserver.sk/api/v1"
+URL_DOMAIN = "https://fluentenglish.academy/api/v1"
 
 
 def _extract_and_save_token(response):

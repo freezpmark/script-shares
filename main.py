@@ -2,7 +2,7 @@ import os
 
 import requests
 from dotenv import load_dotenv
-URL_DOMAIN = "https://fluentenglish.odooserver.sk/api/v1"
+URL_DOMAIN = "https://fluentenglish.academy/api/v1"
 
 load_dotenv()
 ACCESS_TOKEN = os.getenv("access_token")
